@@ -12,7 +12,7 @@ body{
 .container
 {
     height: 70vh;
-    /* 70% veiw port height  70 per part is of the container*/
+    /* 70% veiw port height --> 70 percent part is of the container*/
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: center;
