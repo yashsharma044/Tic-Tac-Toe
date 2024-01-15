@@ -48,12 +48,12 @@ boxes.forEach((box) => {
     box.disabled = true;
     btnCount++;
     let isWinner = checkWinner();
-    if (btnCount === 9 && !isWinner) gameDraw();
+    if (btnCount === 9 && !isWinner) {gameDraw()};
   });
 });
 const gameDraw = () => {
   msg.innerHTML = "<i><b>Its a Draw</b></i>";
-  msgContainer.classList.remove("hide");
+  msgContainer.classList.remove("hide");         
   disabeBoxes();
   // console.log(btnCount)
 };
